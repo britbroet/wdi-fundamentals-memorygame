@@ -6,7 +6,8 @@ var cardThree = "king";
 var cardFour = "king";
 
 
-if ((cardOne === "queen") && (cardTwo === "queen")) {
+if (((cardTwo === "queen") && (cardFour === "queen")) || 
+	((cardTwo === "king") && (cardFour === "king"))) {
 	alert("You found a match!");
 } else {
 	alert("Sorry, try again.");
